@@ -1,0 +1,117 @@
+#top {
+  background-color: rgb(46, 46, 46);
+  height: 100vh;
+}
+
+h2,
+h3 {
+  color: #fff;
+}
+
+.navbar-brand {
+  padding-top: 50px;
+  font-size: 2rem;
+  font-family: "Handlee", cursive;
+}
+
+.mid {
+  margin-top: 20vh;
+}
+
+#time {
+  color: rgb(247, 251, 255);
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+}
+
+#date {
+  font-family: "lato", sans-serif;
+  padding-top: 10px;
+  font-size: 1.3rem;
+}
+
+.bottom {
+  background-color: rgb(46, 46, 46);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+}
+
+h4 {
+  color: rgb(108, 108, 108);
+  font-family: "Handlee", cursive;
+  position: absolute;
+  bottom: 20%;
+}
+
+
+@media (min-width:1400px) {
+  .navbar-brand {
+    padding-top: 10vh;
+    font-size: 4rem;
+    font-family: "Handlee", cursive;
+  }
+
+  #time {
+    color: rgb(247, 251, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 6rem;
+  }
+  
+  #date {
+    font-family: "lato", sans-serif;
+    padding-top: 15px;
+    font-size: 3rem;
+  }
+
+  .bottom {
+    height: 30vh;
+  
+}
+}
+
+@media (max-width:1050px) {
+  .navbar-brand {
+    padding-top: 100px;
+    font-size: 4rem;
+    font-family: "Handlee", cursive;
+  }
+
+  #time {
+    color: rgb(247, 251, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 4rem;
+  }
+  
+  #date {
+    font-family: "lato", sans-serif;
+    padding-top: 10px;
+    font-size: 2rem;
+  }
+
+  .bottom {
+    height: 30vh;
+  
+}}
+
+@media (max-width:500px) {
+  .navbar-brand {
+    padding-top: 70px;
+    font-size: 2.5rem;
+    font-family: "Handlee", cursive;
+  }
+
+  #time {
+    color: rgb(247, 251, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+  }
+  
+  #date {
+    font-family: "lato", sans-serif;
+    padding-top: 10px;
+    font-size: 1.3rem;
+  }
+  
+}
