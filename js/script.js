@@ -15,12 +15,13 @@ setInterval(() => {
     let time = new Date()
     hrs = time.getHours()
     let notation = " AM"
-
-    if (hrs > 12)
-        hrs = hrs - 12;
-
+    
     if (hrs >= 12)
         notation = " PM"
+    
+    if (hrs > 12)
+        hrs = hrs - 12;
+    
     secs = time.getSeconds()
 
 
